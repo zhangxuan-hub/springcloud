@@ -1,0 +1,12 @@
+server:
+  port: 9900
+spring:
+  application:
+    name: webserver-feign
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+logging:
+  level:
+    com.zx.feigns.MyFeignClient02: debug #复制定义的feign接口，给指定的feign设置日志输出级别，feign规定只在debug级别下才输出日志
