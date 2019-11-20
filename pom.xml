@@ -25,6 +25,7 @@
     <module>provider-user</module>
       <module>custon-ribbon</module>
       <module>webserver-feign</module>
+      <module>custom-hystrix</module>
   </modules>
 
   <properties>
